@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Videojuegos</title>
+    
+    <link rel="shortcut icon" href="./img/32x32.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style-index.css">
+</head>
+
+<body id="color">
+    <!-- <div class="container-xl"> -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/gamestore.png" alt="" width="30" height="24">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                  aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Tienda
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Free-to-play</a></li>
+                        <li><a class="dropdown-item" href="#">Shooters</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Categorias</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  id="underline" href="signin.html" >Sign In</a>
+                      </li>
+                    
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+        
+
+           <!-- Este header funciona, fue desechado en la idea final para tener menu hamburguesa -->
+        <!-- <header>
+            <nav class="nav-bar">
+                <div class="logo">GameStore</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#nuevos-lanzamientos">Destacados</a></li>
+                    <li><a href="#ofertas">Ofertas</a></li>
+                    <li><a href="#categorias">Categorías</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <div class="auth-links">
+                    <a href="./signin.html" class="auth-button" id="underline">Sign In</li>
+                        <a href="" class="auth-button">Register</a>
+                </div>
+
+                <div class="search-bar">
+                    <input type="text" placeholder="Buscar juegos...">
+                    <button>Buscar</button>
+                </div>
+
+            </nav>
+        </header>
+    -->
+    <section>
+        <div class="banner">
+            
+            <img src="./img/Assetto-Corsa-Competizione-Build-1-Release-Banner1.png" alt="">
+            
+            <div class="banner-content">
+                <div class="banner-text-left">
+                    <h1>¡Grandes Ofertas de Otoño!</h1>
+                    <p>Descuentos en tus juegos favoritos hasta el 50%.</p>
+                </div>
+                <div class="banner-button-right">
+                    <button>Explorar Ofertas</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <main class="product container">
+        <h2>Todos los juegos</h2>
+        <div class="product-content">
+            <div class="product-1">
+                <img src="./img/elden.webp" alt="">
+                <div class="product-txt">
+                    <h3>Elden Ring</h3>
+                    <div class="price1">
+                        <p>$500</p>
+                        <a href="./eldenring.html" class="btn-2">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-1">
+                <img src="./img/rust400x250.png" alt="">
+                <div class="product-txt">
+                    <h3>Rust</h3>
+                    <div class="price1">
+                        <p>$500</p>
+                        <a href="" class="btn-2">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-1">
+                <img src="./img/apexlegends400x250.png" alt="">
+                <div class="product-txt">
+                    <h3>Apex Legends</h3>
+                    <div class="price1">
+                        <p>$500</p>
+                        <a href="" class="btn-2">Comprar</a>
+                    </div>
+                    <div class="ofertas-del-dia">
+                        <p>oferta</p>
+                        <a href="">
+                            <link rel="stylesheet" href="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- <div class="game-card">
+    <img src="./img/rust400x250.png" alt="Nombre del Juego" class="game-image">
+    <div class="game-info">
+        <h3 class="game-title">Rust</h3>
+        <div class="bloque-largo">
+        
+            <div class="discount-container">
+            <div class="discount-percent">-33%</div>
+            <div class="discount_prices">
+            <span class="discount_original_price">€29.99</span>
+            <span class="discount_final_price">€14.99</span>
+            </div>
+        
+         </div>
+    </div>
+    </div>
+</div> -->
+    <div class="forms">
+        <img src="./img/icons8-email-send-96.png" alt="">
+        <h3>¿Quieres recibir nuestras ofertas?</h3>
+        <form action="https://formsubmit.co/7e372089a00d57565b2e4c1cd0bf9ef1" method="POST" class="formulario">
+            <input type="hidden" name="_subject" value="Nueva solicitud de oferta!">
+            <input type="hidden" name="_autoresponse" value="Gracias por tu interés en nuestras ofertas. Nos pondremos en contacto contigo pronto.">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="name" placeholder="Nombre">
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" name="email" placeholder="Correo Electrónico">
+            <button type="submit">Enviar</button>
+            <p>Puedes desuscribirte en cualquier momento</p>
+        </form>
+    </div>
+    <footer class="footer">
+        <p>Todos los derechos reservados</p>
+    </footer>
+</div>
+     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script> -->
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </body>
+
+</html>

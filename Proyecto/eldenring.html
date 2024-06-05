@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Videojuegos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style-index.css">
+  <link rel="stylesheet" href="style-elden.css">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.0/mdb.min.css" rel="stylesheet" />
+
+</head>
+
+<body data-mdb-theme="dark">
+  <header>
+    <!-- <nav class="nav-bar">
+      <div class="logo">GameStore</div>
+      <ul class="nav-links">
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="#nuevos-lanzamientos">Destacados</a></li>
+        <li><a href="#ofertas">Ofertas</a></li>
+        <li><a href="#categorias">Categorías</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <div class="auth-links">
+        <a href="./signin.html" class="auth-button" id="underline">Sign In</li>
+          <a href="" class="auth-button">Register</a>
+      </div>
+
+      <div class="search-bar">
+        <input type="text" placeholder="Buscar juegos...">
+        <button>Buscar</button>
+      </div>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="./img/gamestore.png" alt="" width="30" height="24">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Tienda
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Free-to-play</a></li>
+                <li><a class="dropdown-item" href="#">Shooters</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Categorias</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Destacados</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  id="underline" href="signin.html" >Sign In</a>
+              </li>
+            
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="main-content">
+    <div class="container-imagenes">
+      <!-- Carousel wrapper -->
+      <div id="carouselMDExample" data-mdb-carousel-init class="carousel slide carousel-fade">
+        <!-- Slides -->
+        <div class="carousel-inner mb-5 shadow-1-strong rounded-3">
+          <div class="carousel-item active">
+            <div class="embed-responsive embed-responsive-16by9">
+              <!-- <video src="./img/Y2meta.app-PRIMER TRÁILER DE ELDEN RING_ SHADOW OF THE ERDTREE y fecha de lanzamiento-(1080p60).mp4"  controls muted autoplay class="d-block w-100" alt="..."> -->
+              <iframe width="300" height="460vh" id="iframeId"
+                src="https://www.youtube.com/embed/NjUPczB0GmY?autoplay=1&mute=1" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="d-block w-100"></iframe>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/elden2.png" class="d-block w-100"
+              class="embed-responsive-item" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/elden3.png" class="d-block w-100"
+              class="embed-responsive-item" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/elden4.png" class="d-block w-100"
+              class="embed-responsive-item" alt="..." />
+          </div>
+        </div>
+        <!-- Slides -->
+
+        <!-- Controls -->
+        <!-- <button data-mdb-button-init class="carousel-control-prev" type="button" data-mdb-target="#carouselMDExample"
+      data-mdb-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button data-mdb-button-init class="carousel-control-next" type="button" data-mdb-target="#carouselMDExample"
+      data-mdb-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button> -->
+        <!-- Controls -->
+
+        <!-- Thumbnails -->
+        <div class="carousel-indicators" style="margin-bottom: -20px;">
+          <button type="button" data-mdb-button-init data-mdb-target="#carouselMDExample" data-mdb-slide-to="0"
+            class="active" aria-current="true" aria-label="Slide 1" style="width: 100px;">
+            <img class="d-block w-100 shadow-1-strong rounded" src="./img/eldenthumbnail1.png" class="img-fluid" />
+          </button>
+          <button type="button" data-mdb-button-init data-mdb-target="#carouselMDExample" data-mdb-slide-to="1"
+            aria-label="Slide 2" style="width: 100px;">
+            <img class="d-block w-100 shadow-1-strong rounded"
+              src="./img/elden2thumbnail.png" class="img-fluid" />
+          </button>
+          <button type="button" data-mdb-button-init data-mdb-target="#carouselMDExample" data-mdb-slide-to="2"
+            aria-label="Slide 3" style="width: 100px;">
+            <img class="d-block w-100 shadow-1-strong rounded"
+              src="./img/elden3thumbnail.png" class="img-fluid" />
+          </button>
+          <button type="button" data-mdb-button-init data-mdb-target="#carouselMDExample" data-mdb-slide-to="3"
+            aria-label="Slide 4" style="width: 100px;">
+            <img class="d-block w-100 shadow-1-strong rounded"
+              src="./img/elden4thumbnail.png" class="img-fluid" />
+          </button>
+        </div>
+        <!-- Thumbnails -->
+      </div>
+    </div>
+    <!-- Caja de compra -->
+    <div class="purchase-box">
+      <h2>Elden Ring</h2>
+      <img src="./img/elden.webp" alt="logo elden ring">
+      <p>La oferta finaliza el 13/6/2024 a las 12:00.</p>
+      <div class="price">$29.99</div>
+      <div class="divisor-botones">
+        <button class="buy-button">Comprar Ahora</button>
+        <button class="carrito">Agregar al carrito</button>
+        <button class="wishlist">Lista de deseos</button>
+      </div>
+    </div>
+    </div>
+  </main>
+  <div class="c-texto">
+  <div class="container-texto">
+    <p>
+      EL NUEVO JUEGO DE ROL Y ACCIÓN DE AMBIENTACIÓN FANTÁSTICA.
+      Álzate, Sinluz, y que la gracia te guíe para abrazar el poder del Círculo de Elden y encumbrarte como señor del
+      Círculo en las Tierras Intermedias.
+    </p>
+    <details>
+    <summary class="leer-mas">Leer Mas</summary> 
+    <p>
+      • Crea tu propio personaje
+      Además de personalizar la apariencia de tu personaje, puedes combinar libremente las armas, armaduras y la magia
+      que te equipas. Puedes desarrollar a tu personaje según tu estilo de juego, tanto para aumentar tu fuerza bruta y
+      ser un guerrero poderoso, como para dominar la magia.
+    </p>
+    <p>
+      • Un drama épico nacido de un mito
+      Una historia muy profunda contada en fragmentos. Un drama épico en el que las motivaciones de cada personaje se
+      encuentran en las Tierras Intermedias.
+
+    </p>
+    <p>
+      • Jugabilidad online única que te conecta libremente con otros jugadores
+      Además del multijugador, en el que te puedes conectar directamente con otros jugadores y viajar juntos, el juego
+      incluye un elemento online asíncrono único que te permite sentir la presencia de otros.
+    </p>
+  </div>
+</div>
+</details>
+
+  <h2>Requisitos del Juego</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Característica</th>
+        <th>Requisitos Mínimos</th>
+        <th>Requisitos Recomendados</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Sistema Operativo</strong></td>
+        <td>Windows 10 (64-bit)</td>
+        <td>Windows 11 (64-bit)</td>
+      </tr>
+      <tr>
+        <td><strong>Procesador</strong></td>
+        <td>Intel Core i5-3570 / AMD FX-8350</td>
+        <td>Intel Core i7-6700K / AMD Ryzen 7 3700X</td>
+      </tr>
+      <tr>
+        <td><strong>Memoria RAM</strong></td>
+        <td>8 GB</td>
+        <td>16 GB</td>
+      </tr>
+      <tr>
+        <td><strong>Tarjeta Gráfica</strong></td>
+        <td>NVIDIA GeForce GTX 660 / AMD Radeon HD 7870</td>
+        <td>NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700</td>
+      </tr>
+      <tr>
+        <td><strong>DirectX</strong></td>
+        <td>Versión 11</td>
+        <td>Versión 12</td>
+      </tr>
+      <tr>
+        <td><strong>Red</strong></td>
+        <td>Conexión de banda ancha</td>
+        <td>Conexión de banda ancha</td>
+      </tr>
+      <tr>
+        <td><strong>Almacenamiento</strong></td>
+        <td>70 GB de espacio disponible</td>
+        <td>70 GB de espacio disponible</td>
+      </tr>
+      <tr>
+        <td><strong>Tarjeta de Sonido</strong></td>
+        <td>Compatible con DirectX 11</td>
+        <td>Compatible con DirectX 12</td>
+      </tr>
+      <tr>
+        <td><strong>Notas Adicionales</strong></td>
+        <td>Se recomienda un SSD para una mejor experiencia</td>
+        <td>Se recomienda un SSD para una mejor experiencia</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer class="footer">
+    <p>Todos los derechos reservados</p>
+  </footer>
+
+
+
+  <script type="text/javascript">
+    myVid = document.getElementById("iframeId");
+    myVid.muted = true;
+  </script>
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.0/mdb.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+  crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

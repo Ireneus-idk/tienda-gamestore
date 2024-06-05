@@ -1,0 +1,199 @@
+body{
+    background-color: rgb(145, 48, 48);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(82, 93, 115);
+}
+th, td{
+    padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+}
+th{
+    background-color: #0a0a0a;
+}
+h2{
+  padding-left: 1rem;
+}
+.container-imagenes{
+    margin: auto;
+    padding: 3vh;
+    width: 60%;
+    /* background-color: #ff3f31; */
+}
+/* Asegúrate de que el fondo del carrusel sea transparente */
+:root {
+    --mdb-body-bg: transparent;
+}
+.carousel-inner {
+    background: var(--mdb-body-bg) !important;
+  }
+  .carousel-item {
+    background: var(--mdb-body-bg) !important;
+  }
+  
+  /* Ajusta el estilo de los botones de control si es necesario */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%); /* Esto hará que los iconos sean blancos */
+  }
+  
+  /* Estilos para los indicadores de carrusel si es necesario */
+  .carousel-indicators button {
+    background-color: rgba(255, 255, 255, 0.5); /* Botones semi-transparentes */
+  }
+  
+  .carousel-indicators button.active {
+    background-color: rgba(255, 255, 255, 1); /* Botón activo totalmente blanco */
+  }
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+  .purchase-box {
+    flex: 1; /* La caja de compra ocupa un tercio del espacio */
+    background-color: #1f1c1c;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(71, 70, 70, 0.1);
+    margin-left: 1rem;
+    text-align: center;
+    position: relative;
+    z-index: 2; /* Asegura que la caja de compra esté sobre los botones del carrusel */
+}
+
+.purchase-box h2 {
+    margin-top: 0;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: #696666;
+  margin: 1rem 0;
+}
+
+.buy-button, .carrito, .wishlist {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #ff6f61;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+  max-width: 200px; /* Limita el ancho máximo de los botones */
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.wishlist{
+  color: black;
+  background-color: #f2f1f1;
+}
+.buy-button:hover {
+  background-color: #ff3f31;
+}
+/* .carrito{
+  padding: 1rem 2rem;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+  
+} */
+.divisor-botones{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-10%);
+    z-index: 1; 
+    background: transparent; 
+    border: none; 
+    padding: 0; 
+    padding: 0; 
+    height: auto; 
+    width: auto; 
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 50px; 
+    height: 50px; 
+    background-size: cover;
+} */
+
+.carousel-prev {
+    left: 0;
+}
+
+.carousel-next {
+    right: 0;
+}
+
+.embed-responsive {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  /* padding-bottom: 56.25%;  */
+  /* 16:9 aspect ratio */
+}
+.embed-responsive .embed-responsive-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.container-texto{
+  padding-left: 3rem;
+  border: solid 2px #d9d4d4;
+  border-radius: 10px;
+  margin-bottom: 2%;
+  padding-right: 2rem;
+  max-width: 50%;
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+}
+.c-texto{
+  padding-left: 7rem;
+}
+/* summary::marker{
+  color: rgb(33, 5, 53);
+  font-size: 1.5rem;
+  display: none;
+
+} */
+
+.leer-mas{
+  
+    right: 910px;
+    bottom: 0px;
+    top: 81%;
+    height: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #b8d6e5;
+    font-size: 12px;
+    padding-right: 13px;
+    padding-bottom: 0px;
+    
+}
+
+.leer-mas::after{
+  display: none;
+}
