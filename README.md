@@ -11,4 +11,4 @@ Y BOTONES DE COMPRA, AGREGAR AL CARRITO, UN CARROUSEL CON VIDEO E IMAGENES Y UNA
 EN EL NAV-BAR CONTAMOS CON UN BOTON DE SIGN IN QUE NOS LLEVARA A LA PÁGINA DE LOGUEO.
 
 Consigna:https://docs.google.com/document/d/1tp_FvtHb3HQbN95-6p0TBwvNCCPUajq8pg6XOmLg71M/edit
-Entregar miércoles 5/6.
+Entregar hasta miércoles 5/6.
